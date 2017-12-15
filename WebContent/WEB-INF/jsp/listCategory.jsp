@@ -11,8 +11,7 @@
     <c:forEach items="${cs}" var="c" varStatus="st">
         <tr>
             <td>${c.id}</td>
-            <td>${c.name}</td>
-              
+            <td>${c.name}</td>              
         </tr>
     </c:forEach>
 </table>
